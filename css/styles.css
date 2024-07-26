@@ -40,7 +40,7 @@ header nav ul li a {
 }
 
 .landing-page {
-    background: url('../IMED-HTML/css/landing-image.jpg') no-repeat center center;
+    background: url('../../IMED-HTML/css/landing-image.jpg') no-repeat center center;
     background-size: cover;
     color: #fff;
     text-align: center;
@@ -50,6 +50,20 @@ header nav ul li a {
 .landing-content {
     max-width: 600px;
     margin: 0 auto;
+    position: relative;
+}
+
+.landing-content h2 {
+    font-size: 3em;
+    margin: 0;
+    padding: 0;
+    color: #ffffff; /* White color for contrast */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7); /* Dark shadow for better readability */
+}
+
+.landing-content p {
+    font-size: 1.2em;
+    color: #f0f0f0;
 }
 
 .latest-blogs {
@@ -115,9 +129,4 @@ footer .container {
 
 .newsletter-signup button {
     padding: 10px;
-    background-color: #007BFF;
-    color: #fff;
-    border: none;
-    cursor: pointer;
-}
-
+    background-color: #007BF
